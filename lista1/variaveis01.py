@@ -80,10 +80,10 @@ print(f"As novas variáveis são {A} e {B}")
 # SOMA, subtração, multiplicação e divisão entre eles.
 
 X, Y = 7, 3
-SOMA = x + y
-SUBTRACAO = x - y
-MULTIPLICACAO = x * y
-DIVISAO = x / y
+SOMA = X + Y
+SUBTRACAO = X - Y
+MULTIPLICACAO = X * X
+DIVISAO = X / Y
 
 print(f"A SOMA é {SOMA}, a subtração é {SUBTRACAO},"
       f"a multiplicação é {MULTIPLICACAO} e a divisão é {DIVISAO:.2f}")
