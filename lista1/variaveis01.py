@@ -4,8 +4,8 @@ Lista de exercicios - Manipulação de variáveis
 ## 1. Manipulação de Variáveis
 
 ### Exercício 1:
-# Crie uma variável chamada `nome` e atribua o valor do seu nome a 
-# ela. Em seguida, crie outra variável chamada `idade` e atribua sua idade. 
+# Crie uma variável chamada `nome` e atribua o valor do seu nome a
+# ela. Em seguida, crie outra variável chamada `idade` e atribua sua idade.
 # Exiba no console:
 # ```
 # Meu nome é <nome> e tenho <idade> anos.
@@ -17,8 +17,8 @@ IDADE = 45
 print(f"O meu nome é {NOME} e tenho {IDADE}")
 
 ### Exercício 2:
-# Atribua valores a três variáveis `a`, `b`, e `c`. 
-# Troque os valores de `a` e `b` 
+# Atribua valores a três variáveis `a`, `b`, e `c`.
+# Troque os valores de `a` e `b`
 # sem usar uma variável auxiliar e exiba o resultado.
 
 A = 5
@@ -29,7 +29,7 @@ A,B = B,A
 print(f"A nova lista após a troca é {A}, {B} e {C}")
 
 # ### Exercício 3:
-# Calcule a área de um círculo. Peça ao usuário o valor do raio e 
+# Calcule a área de um círculo. Peça ao usuário o valor do raio e
 # armazene o resultado em uma variável chamada `area`. A fórmula para a área é:
 # ```
 # area = pi * raio^2
@@ -42,8 +42,8 @@ area = PI * (raio ** 2)
 print(f"A área do círculo é {area:.4f}")
 
 ### Exercício 4:
-# Atribua uma string de texto contendo um número (por exemplo, "25") a 
-# uma variável. 
+# Atribua uma string de texto contendo um número (por exemplo, "25") a
+# uma variável.
 # Converta essa string para um número inteiro e exiba o dobro do valor.
 
 ALGUMTEXTO = "25"
@@ -51,7 +51,7 @@ ALGUMTEXTO = int(ALGUMTEXTO)
 print(f"O dobro do valor é {ALGUMTEXTO * 2}")
 
 ### Exercício 5:
-# Crie duas variáveis: `preco` e `desconto`. Atribua valores a elas. 
+# Crie duas variáveis: `preco` e `desconto`. Atribua valores a elas.
 # Calcule o preço final após o desconto e exiba o resultado.
 
 PRECO = 3000
@@ -61,14 +61,14 @@ print(f"O preço original é {PRECO:.2f} reais."
       f"O valor do desconto é 25%. "
       f"O preço com desconto é {PRECO_FINAL:.2f} reais.")
 
-# Crie uma variável chamada nome e outra chamada idade. Atribua valores 
+# Crie uma variável chamada nome e outra chamada idade. Atribua valores
 # a elas e exiba:
 # Meu nome é <nome> e tenho <idade> anos.
 NOME = "Kardian"
 IDADE = 1
 print(f"Meu carro é um {NOME} e ele tem {IDADE} ano de uso.")
 
-# Crie duas variáveis a e b com valores inteiros. Troque os valores sem 
+# Crie duas variáveis a e b com valores inteiros. Troque os valores sem
 # usar uma variável auxiliar.
 
 A,B = 7, 49 # multiple assignment or unpacking
@@ -76,7 +76,7 @@ print(f"As variáveis originais são {A} e {B}")
 A,B = B,A
 print(f"As novas variáveis são {A} e {B}")
 
-# Armazene dois números inteiros nas variáveis x e y. Calcule e exiba a 
+# Armazene dois números inteiros nas variáveis x e y. Calcule e exiba a
 # SOMA, subtração, multiplicação e divisão entre eles.
 
 X, Y = 7, 3
