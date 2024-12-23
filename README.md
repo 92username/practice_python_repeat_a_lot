@@ -1,4 +1,4 @@
-[![Pylint](https://github.com/92username/practice_python_repeat_a_lot/actions/workflows/pylint.yml/badge.svg)](https://github.com/92username/practice_python_repeat_a_lot/actions/workflows/pylint.yml)
+[![Pylint](https://github.com/92username/practice_python_repeat_a_lot/actions/workflows/pylint.yml/badge.svg?branch=main)](https://github.com/92username/practice_python_repeat_a_lot/actions/workflows/pylint.yml)
 
 ![Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252) ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 
