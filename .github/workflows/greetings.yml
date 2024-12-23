@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-24-04
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Bem-vindo ao nosso repositório! Fique à vontade para explorar e contribuir. Se precisar de ajuda, consulte nossa documentação ou abra uma nova issue."
+        pr-message: "Obrigado por contribuir! Sua pull request será revisada em breve. Fique atento para feedbacks e sugestões."
